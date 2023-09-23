@@ -53,7 +53,7 @@ function MainPage() {
             ))
           ) : (
             <h2 className="font-medium text-lg text-slate-900 mb-1">
-              포켓몬이 없습니다 !
+              포켓몬이 없습니다 .
             </h2>
           )}
         </div>
