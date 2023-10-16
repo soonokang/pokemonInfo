@@ -36,7 +36,7 @@ function MainPage() {
   };
 
   return (
-    <article className="pt-6">
+    <article className="pt-6 mt-20">
       <header className="flex flex-col gap-2 w-full px-4 z-50">
         <div className="relative z-50">
           <AutoComplete

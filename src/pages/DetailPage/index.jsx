@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
@@ -10,7 +9,6 @@ import { Balance } from "./../../assets/Balance";
 import { Vector } from "./../../assets/Vector";
 import Type from "../../components/Type";
 import BaseStat from "../../components/BaseStat";
-import DamageRelations from "../../components/DamageRelations";
 
 const DetailPage = () => {
   const [pokemon, setPokemon] = useState();
@@ -145,7 +143,7 @@ const DetailPage = () => {
   const text = `text-${pokemon?.types?.[0]}`;
 
   return (
-    <article className={` flex items-center gap-1 flex-col w-full`}>
+    <article className={` flex items-center gap-1 flex-col w-full mt-32`}>
       <div
         className={`${bg} w-auto h-full flex flex-col items-center justify-end relative overflow-hidden`}
       >
@@ -167,7 +165,7 @@ const DetailPage = () => {
         )}
 
         <section
-          className={`w-full flex flex-col z-20 items-center justify-end relative h-full `}
+          className={`w-full flex flex-col z-20 items-center justify-end relative h-full w-full  `}
         >
           <div className="absolute z-30 top-6 flex items-center w-full justify-between px-2">
             <div className="flex items-center gap-1">
