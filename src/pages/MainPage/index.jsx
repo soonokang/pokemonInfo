@@ -45,7 +45,7 @@ function MainPage() {
           />
         </div>
       </header>
-      <section className="pt-6 flex flex-col justify-content items-center overflow-auto z-0">
+      <section className="pt-6 flex flex-col justify-content items-center overflow-auto z-0 ">
         <div className="flex flex-row flex-wrap gap-[16px] items-center justify-center px-2 max-w-4xl">
           {displayedPokemons.length > 0 ? (
             displayedPokemons.map(({ url, name }, index) => (
